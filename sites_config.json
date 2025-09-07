@@ -47,8 +47,8 @@
     "site_name": "EGEBET",
     "channel_id": -1001513128130
   },
-  "LUNABET": {
-    "message_pattern": "LUNABET\\s*\\n\\s*(\\b[A-Z0-9]{4,}\\b)",
+   "LUNABET": {
+    "message_pattern": "LUNABET(?:👉🏼|\\s*\\n\\s*)(\\b[A-Z0-9]{4,}\\b)",
     "url_keyword": "lunabet",
     "code_index": 0,
     "input_selector": "input.E2E-bonusCode-input",
@@ -174,6 +174,7 @@
   }
 
 }
+
 
 
 
