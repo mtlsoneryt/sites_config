@@ -100,7 +100,7 @@
     "success_message_selector": ".success-notification",
     "error_message_selector": ".error-notification",
     "site_name": "NAKİTBAHİS",
-    "channel_id": -1002837042433
+    "channel_id": -1002321250370
   },
   "BETSMOVE": {
     "message_pattern": "\\s*([A-Z0-9]{10,10})\\s*\\n+https?:\\/\\/dub\\.is\\/betsmovetelegram",
@@ -170,10 +170,11 @@
     "success_message_selector": ".success",
     "error_message_selector": ".error",
     "site_name": "KAVBET",
-    "channel_id": -1002837042433
+    "channel_id": -1001513128130
   }
 
 }
+
 
 
 
