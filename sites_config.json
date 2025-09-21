@@ -1,6 +1,6 @@
 {
     "MEGA": {
-    "message_pattern": "(?:MEGABAHİS|MEGA)(?:\\s*\\n)+(\\b[A-Z0-9]{12}\\b)(?:(?:\\s*\\n)+(\\b[A-Z0-9]{12}\\b))?(?:(?:\\s*\\n)+(\\b[A-Z0-9]{12}\\b))?",
+    "message_pattern": "^(MEGABAHİS|MEGA)\\s*\\n\\s*(\\b[A-Z0-9]{10,}\\b)\\s*\\n\\s*(\\b[A-Z0-9]{10,}\\b)\\s*\\n\\s*(\\b[A-Z0-9]{10,}\\b)",
     "url_keyword": "megabahis",
     "code_index": 0,
     "input_selector": "input.E2E-bonusCode-input",
@@ -170,6 +170,7 @@
   }
 
 }
+
 
 
 
