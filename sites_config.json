@@ -1,12 +1,8 @@
 {
-   "MEGA": {
+    "MEGA": {
     "message_pattern": "(?:MEGABAHİS|MEGA)(?:\\s*\\n)+(\\b[A-Z0-9]{12}\\b)(?:(?:\\s*\\n)+(\\b[A-Z0-9]{12}\\b))?(?:(?:\\s*\\n)+(\\b[A-Z0-9]{12}\\b))?",
     "url_keyword": "megabahis",
-    "code_index": [
-      0,
-      1,
-      2
-    ],
+    "code_index": 0,
     "input_selector": "input.E2E-bonusCode-input",
     "button_selector": "button.ComponentButton.InstanceActiveBonuses.Button",
     "success_message_selector": "div.success-message-class",
@@ -174,6 +170,7 @@
   }
 
 }
+
 
 
 
