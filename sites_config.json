@@ -20,7 +20,7 @@
     "error_message_selector": "div.error-message",
     "site_name": "ARTEMİSBET",
     "channel_id": -1003026009206
-  }
+  },
    "TURBO": {
     "message_pattern": "^(TURBOSLOT|TURBO)(?:👉🏼|(?:\\s*\\n)+)(\\b[A-Z0-9]{6,}\\b)",
     "url_keyword": "turboslot",
@@ -165,3 +165,4 @@
     "channel_id": -1002837042433
   }
 }
+
