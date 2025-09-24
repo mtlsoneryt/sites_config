@@ -30,7 +30,7 @@
     "success_message_selector": ".alert-success",
     "error_message_selector": ".alert-danger",
     "site_name": "TURBO",
-    "channel_id": -1003026009206
+    "channel_id": -1002837042433
   },
   "EGEBET": {
     "message_pattern": "EGEBET\\s*\\n\\s*(\\b[A-Z0-9]{4,}\\b)",
@@ -165,5 +165,6 @@
     "channel_id": -1002837042433
   }
 }
+
 
 
