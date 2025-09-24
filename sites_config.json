@@ -85,7 +85,7 @@
     "success_message_selector": "div.success-alert",
     "error_message_selector": "div.error-alert",
     "site_name": "HIZLI",
-    "channel_id": -1002837042433
+    "channel_id": -1003026009206
   },
   "NAKİTBAHİS": {
     "message_pattern": "Kişilik\\s*FREESECOND\\s*Kodu(?:.|\\s)*?(\\b[A-Z0-9]{10,}\\b)",
@@ -165,4 +165,5 @@
     "channel_id": -1002837042433
   }
 }
+
 
