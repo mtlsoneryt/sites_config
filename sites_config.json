@@ -1,6 +1,6 @@
 {
     "MEGA": {
-    "message_pattern": "MEGABAHİS(?:.|\\s)*?(?:Piggy|Penguin|Fisher|Kod):\\s*(\\b[A-Z0-9]{12,}\\b)",
+    "message_pattern": "MEGABAHİS(?:.|\\s)*?Kod:\\s*(\\b[A-Z0-9]{12}\\b)",
     "url_keyword": "megabahis",
     "code_index": 0,
     "input_selector": "input.E2E-bonusCode-input",
@@ -55,7 +55,7 @@
     "channel_id": -1003026009206
   },
   "MAVİBET": {
-    "message_pattern": "MAVİBET\\s*\\n\\s*(\\b[A-Z0-9]{4,}\\b)",
+    "message_pattern": "MAVİBET(?:.|\\s)*?Kod:\\s*(\\b[A-Z0-9]{6,12}\\b)",
     "url_keyword": "mavibet",
     "code_index": 0,
     "input_selector": "input.E2E-bonusCode-input",
@@ -63,7 +63,7 @@
     "success_message_selector": "span.success-msg",
     "error_message_selector": "span.error-msg",
     "site_name": "MAVİBET",
-    "channel_id": -1002837042433
+    "channel_id": -1003026009206
   },
   "MATBET": {
     "message_pattern": "MATBET(?:.|\\s)*?Kod:\\s*(\\b[A-Z0-9]{10}\\b)",
@@ -132,7 +132,7 @@
     "channel_id": -1003026009206
   },
   "JOJO": {
-    "message_pattern": "(?:JOJOBET|JOJO)\\S*(?:\\s*\\n\\s*|👉🏼|\\s+)(\\b[A-Z0-9]{4,15}\\b)",
+    "message_pattern": "JOJOBET(?:.|\\s)*?Kod:\\s*(\\b[A-Z0-9]{8}\\b)",
     "url_keyword": "jojobet",
     "code_index": 0,
     "input_selector": "input.E2E-bonusCode-input",
@@ -140,10 +140,10 @@
     "success_message_selector": ".success",
     "error_message_selector": ".error",
     "site_name": "JOJO",
-    "channel_id": -1002837042433
+    "channel_id": -1003026009206
    },
   "PUSULABET": {
-    "message_pattern": "PUSULABET\\s*\\n\\s*([A-Z0-9]{6,})\\s*\\n",
+    "message_pattern": "PUSULABET(?:.|\\s)*?Kod:\\s*(\\b[A-Z0-9]{6,12}\\b)",
     "url_keyword": "pusulabet",
     "code_index": 0,
     "input_selector": "input.E2E-bonusCode-input",
@@ -165,6 +165,7 @@
     "channel_id": -1002837042433
   }
 }
+
 
 
 
