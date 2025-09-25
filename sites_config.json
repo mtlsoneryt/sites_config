@@ -22,15 +22,15 @@
     "channel_id": -1003026009206
   },
    "TURBO": {
-    "message_pattern": "^(TURBOSLOT|TURBO)(?:👉🏼|(?:\\s*\\n)+)(\\b[A-Z0-9]{6,}\\b)",
+    "message_pattern": "^TURBO(?:.|\\s)*?Kod:\\s*(\\b[A-Z0-9]{6}\\b)",
     "url_keyword": "turboslot",
-    "code_index": 1,
+    "code_index": 0,
     "input_selector": "input.E2E-bonusCode-input",
     "button_selector": "button.ComponentButton.InstanceActiveBonuses.Button",
     "success_message_selector": ".alert-success",
     "error_message_selector": ".alert-danger",
     "site_name": "TURBO",
-    "channel_id": -1002837042433
+    "channel_id": -1003026009206
   },
   "EGEBET": {
     "message_pattern": "EGEBET\\s*\\n\\s*(\\b[A-Z0-9]{4,}\\b)",
@@ -165,6 +165,7 @@
     "channel_id": -1002837042433
   }
 }
+
 
 
 
