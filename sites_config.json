@@ -151,7 +151,7 @@
     "success_message_selector": ".notification.is-success",
     "error_message_selector": ".notification.is-danger",
     "site_name": "PUSULABET",
-    "channel_id": -1002837042433
+    "channel_id": -1003026009206
   },
   "KAVBET": {
     "message_pattern": "KAVBET\\s*\\n\\s*([A-Z0-9]{8,14})\\s*\\n\\s*https?:\\/\\/kavlink\\.site\\/sosyal",
@@ -165,6 +165,7 @@
     "channel_id": -1002837042433
   }
 }
+
 
 
 
