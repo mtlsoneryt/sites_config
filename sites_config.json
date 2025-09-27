@@ -110,7 +110,7 @@
     "channel_id": -1002837042433
   },
   "ELIT": {
-    "message_pattern": "ELİT(?:.|\\s)*?Kod:\\s*(\\b[A-Z0-9]{12}\\b)",
+    "message_pattern": "ELİT(?:.|\\s)*?Kod:\\s*(\\b[A-Z0-9]{10,13}\\b)",
     "url_keyword": "elitcasino",
     "code_index": 0,
     "input_selector": "input.E2E-bonusCode-input",
@@ -165,6 +165,7 @@
     "channel_id": -1002837042433
   }
 }
+
 
 
 
