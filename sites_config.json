@@ -9,7 +9,7 @@
     "error_message_selector": "div.error-message-class",
     "site_name": "MEGA",
     "channel_id": -1003026009206
-  },
+  },  
   "ARTEMİSBET": {
     "message_pattern": "ARTEMİS(?:.|\\s)*?Gates:\\s*(\\b[A-Z0-9]{12,}\\b)(?:.|\\s)*?Sugar:\\s*(\\b[A-Z0-9]{12,}\\b)(?:.|\\s)*?Wisdom:\\s*(\\b[A-Z0-9]{12,}\\b)",
     "url_keyword": "artemisbet",
@@ -165,6 +165,7 @@
     "channel_id": -1002837042433
   }
 }
+
 
 
 
