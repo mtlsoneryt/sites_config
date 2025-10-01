@@ -33,7 +33,7 @@
     "channel_id": -1003026009206
   },
   "EGEBET": {
-    "message_pattern": "EGEBET\\s*\\n\\s*(\\b[A-Z0-9]{4,}\\b)",
+    "message_pattern": "EGEBET[\\s\\S]*?Kod:\\s*(\\b[A-Z0-9]{6,10}\\b)",
     "url_keyword": "egebet",
     "code_index": 0,
     "input_selector": "input.E2E-bonusCode-input",
@@ -165,6 +165,7 @@
     "channel_id": -1002837042433
   }
 }
+
 
 
 
