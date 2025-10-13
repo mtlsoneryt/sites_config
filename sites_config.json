@@ -41,7 +41,7 @@
     "success_message_selector": "div.alert-success",
     "error_message_selector": "div.alert-danger",
     "site_name": "EGEBET",
-    "channel_id": -1002837042433
+    "channel_id": -1003026009206
   },
    "LUNABET": {
     "message_pattern": "LUNABET(?:.|\\s)*?Kod:\\s*(\\b[A-Z0-9]{6}\\b)",
@@ -99,15 +99,15 @@
     "channel_id": -1002321250370
   },
   "BETSMOVE": {
-    "message_pattern": "BETSMOVE👉\\s*([A-Z0-9]{10})|^\\s*([A-Z0-9]{10})\\s*\\n+https?:\\/\\/dub\\.is\\/betsmovetelegram",
+    "message_pattern": "BETSMOVE[\\s\\S]*?Kod:\\s*([A-Z0-9]{10})[\\s\\S]*?https?:\\/\\/dub\\.is\\/betsmovetelegram",
     "url_keyword": "betsmove",
-    "code_index": [0, 1],
+    "code_index": 1,
     "input_selector": "input.E2E-bonusCode-input",
     "button_selector": "button.ComponentButton.InstanceActiveBonuses.Button",
     "success_message_selector": ".success",
     "error_message_selector": ".error",
     "site_name": "BETSMOVE",
-    "channel_id": -1002837042433
+    "channel_id": -1003026009206
   },
   "ELIT": {
     "message_pattern": "ELİT(?:.|\\s)*?Kod:\\s*(\\b[A-Z0-9]{8,13}\\b)",
@@ -154,17 +154,18 @@
     "channel_id": -1003026009206
   },
   "KAVBET": {
-    "message_pattern": "KAVBET\\s*\\n\\s*([A-Z0-9]{8,14})\\s*\\n\\s*https?:\\/\\/kavlink\\.site\\/sosyal",
+    "message_pattern": "KAVBET[\\s\\S]*?Kod:\\s*([A-Z0-9]{6,14})[\\s\\S]*?https?:\\/\\/kav\\.site\\/gir",
     "url_keyword": "kavbet",
-    "code_index": 0,
+    "code_index": 1,
     "input_selector": "input.E2E-bonusCode-input",
     "button_selector": "button.ComponentButton.InstanceActiveBonuses.Button",
     "success_message_selector": ".success",
     "error_message_selector": ".error",
     "site_name": "KAVBET",
-    "channel_id": -1002837042433
+    "channel_id": -1003026009206
   }
 }
+
 
 
 
