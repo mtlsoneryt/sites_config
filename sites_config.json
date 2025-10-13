@@ -1,6 +1,6 @@
 {
  "MEGA": {
-  "message_pattern": "MEGABAHİS(?:.|\\s)*?Kod:\\s*(\\b[A-Z0-9]{7,13}\\b)",
+  "message_pattern": "MEGABAHİS[\\s\\S]*?Kod:\\s*(\\b[A-Z0-9]{6,12}\\b)",
   "url_keyword": "megabahis",
   "code_index": 0,
   "input_selector": "input.E2E-bonusCode-input",
@@ -165,6 +165,7 @@
     "channel_id": -1002837042433
   }
 }
+
 
 
 
