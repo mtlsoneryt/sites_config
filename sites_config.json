@@ -1,6 +1,6 @@
 {
     "MEGA": {
-    "message_pattern": "MEGABAHİS(?:.|\\s)*?Kod:\\s*(\\b[A-Z0-9]{12,}\\b)(?:.|\\s)*?Kod:\\s*(\\b[A-Z0-9]{12,}\\b)(?:.|\\s)*?Kod:\\s*(\\b[A-Z0-9]{12,}\\b)",
+    "message_pattern": "MEGABAHİS(?:.|\\s)*?Kod:\\s*(\\b[A-Z0-9]{12,}\\b)(?:.|\\s)*?Kod:\\s*(\\b[A-Z0-9]{7,13}\\b)(?:.|\\s)*?Kod:\\s*(\\b[A-Z0-9]{12,}\\b)",
     "url_keyword": "megabahis",
     "code_index": 2,
     "input_selector": "input.E2E-bonusCode-input",
@@ -66,7 +66,7 @@
     "channel_id": -1003026009206
   },
   "MATBET": {
-    "message_pattern": "MATBET(?:.|\\s)*?Kod:\\s*(\\b[A-Z0-9]{10}\\b)",
+    "message_pattern": "MATBET(?:.|\\s)*?Kod:\\s*(\\b[A-Z0-9]{8,12}\\b)",
     "url_keyword": "matbet",
     "code_index": 0,
     "input_selector": "input.E2E-bonusCode-input",
@@ -88,7 +88,7 @@
     "channel_id": -1003026009206
   },
   "NAKİTBAHİS": {
-    "message_pattern": "Kişilik\\s*FREESECOND\\s*Kodu(?:.|\\s)*?(\\b[A-Z0-9]{10,}\\b)",
+    "message_pattern": r"KOD[:\-]?\s*([A-Z0-9]{8,15})\b",
     "url_keyword": "nakitbahis",
     "code_index": 0,
     "input_selector": "input.E2E-bonusCode-input",
@@ -121,7 +121,7 @@
     "channel_id": -1003026009206
   },
   "COINBAR": {
-    "message_pattern": "COINBAR(?:.|\\s)*?Kod:\\s*(\\b[A-Z0-9]{9}\\b)",
+    "message_pattern": "COINBAR(?:.|\\s)*?Kod:\\s*(\\b[A-Z0-9]{8,12}\\b)",
     "url_keyword": "coinbar",
     "code_index": 0,
     "input_selector": "input.E2E-bonusCode-input",
@@ -132,7 +132,7 @@
     "channel_id": -1003026009206
   },
   "JOJO": {
-    "message_pattern": "JOJOBET(?:.|\\s)*?Kod:\\s*(\\b[A-Z0-9]{8}\\b)",
+    "message_pattern": "JOJOBET(?:.|\\s)*?Kod:\\s*(\\b[A-Z0-9]{8,12}\\b)",
     "url_keyword": "jojobet",
     "code_index": 0,
     "input_selector": "input.E2E-bonusCode-input",
@@ -165,6 +165,7 @@
     "channel_id": -1002837042433
   }
 }
+
 
 
 
