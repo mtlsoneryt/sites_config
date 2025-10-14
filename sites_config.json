@@ -11,16 +11,15 @@
   "channel_id": -1003026009206
 },
   "ARTEMİSBET": {
-    "message_pattern": "ARTEMİS(?:.|\\s)*?Gates:\\s*(\\b[A-Z0-9]{12,}\\b)(?:.|\\s)*?Sugar:\\s*(\\b[A-Z0-9]{12,}\\b)(?:.|\\s)*?Wisdom:\\s*(\\b[A-Z0-9]{12,}\\b)",
-    "url_keyword": "artemisbet",
-    "code_index": 1,
+    "message_pattern": r"ARTEMİS(?:.|\\s)*?Sugar:\s*(\b[A-Z0-9]{10,}\b)",
+    "code_index": 0,  # Listenin artık tek elemanı olan Sugar kodunu yakala
     "input_selector": "input.E2E-bonusCode-input",
     "button_selector": "button.ComponentButton.InstanceActiveBonuses.Button",
     "success_message_selector": "div.success-message",
     "error_message_selector": "div.error-message",
     "site_name": "ARTEMİSBET",
     "channel_id": -1003026009206
-  },
+},
    "TURBO": {
     "message_pattern": "^TURBO(?:.|\\s)*?Kod:\\s*(\\b[A-Z0-9]{6}\\b)",
     "url_keyword": "turboslot",
@@ -165,6 +164,7 @@
     "channel_id": -1003026009206
   }
 }
+
 
 
 
