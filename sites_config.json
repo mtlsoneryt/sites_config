@@ -11,7 +11,7 @@
   "channel_id": -1003026009206
 },
   "ARTEMİSBET": {
-    "message_pattern": r"ARTEMİS(?:.|\\s)*?Sugar:\s*(\b[A-Z0-9]{10,}\b)",
+    "message_pattern": "ARTEMİS(?:.|\\s)*?Sugar:\\s*(\\b[A-Z0-9]{10,}\\b)", 
     "code_index": 0,
     "input_selector": "input.E2E-bonusCode-input",
     "button_selector": "button.ComponentButton.InstanceActiveBonuses.Button",
@@ -164,6 +164,7 @@
     "channel_id": -1003026009206
   }
 }
+
 
 
 
