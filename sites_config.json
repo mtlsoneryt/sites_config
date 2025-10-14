@@ -77,7 +77,7 @@
     "channel_id": -1003026009206
   },
   "HIZLI": {
-    "message_pattern": "HIZLI(?:.|\\s)*?Kod:\\s*(\\b[A-Z0-9]{10}\\b)",
+    "message_pattern": "HIZLI(?:.|\\s)*?Kod:\\s*(\\b[A-Z0-9]{6,12}\\b)",
     "url_keyword": "hizlicasino",
     "code_index": 0,
     "input_selector": "input.E2E-bonusCode-input",
@@ -165,6 +165,7 @@
     "channel_id": -1003026009206
   }
 }
+
 
 
 
