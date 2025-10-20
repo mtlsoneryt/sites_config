@@ -165,7 +165,7 @@
     "channel_id": -1003026009206
   },
   "ODEON": {
-    "message_pattern": "^ODEON\\s+(\\b[A-Z0-9]{6,12}\\b)",
+    "message_pattern": "^ODEONBET\\s+(\\b[A-Z0-9]{6,12}\\b)",
     "url_keyword": "odeon",
     "code_index": 0,
     "input_selector": "input.E2E-bonusCode-input",
@@ -176,6 +176,7 @@
     "channel_id": -1003026009206
   }
 }
+
 
 
 
