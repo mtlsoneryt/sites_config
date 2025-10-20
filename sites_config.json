@@ -166,7 +166,7 @@
   },
   "ODEON": {
     "message_pattern": "^ODEON\\s+(\\b[A-Z0-9]{6,12}\\b)",
-    "url_keyword": "kavbet",
+    "url_keyword": "odeon",
     "code_index": 0,
     "input_selector": "input.E2E-bonusCode-input",
     "button_selector": "button.ComponentButton.InstanceActiveBonuses.Button",
@@ -176,5 +176,6 @@
     "channel_id": -1003026009206
   }
 }
+
 
 
