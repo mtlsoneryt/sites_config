@@ -154,7 +154,7 @@
     "channel_id": -1003026009206
   },
   "KAVBET": {
-    "message_pattern": "^KAVBET\\s+(\\b[A-Z0-9]{6,12}\\b)",
+    "message_pattern": "^KAVBET\\s+(\\b[A-Z0-9]{5,12}\\b)",
     "url_keyword": "kavbet",
     "code_index": 0,
     "input_selector": "input.E2E-bonusCode-input",
@@ -176,6 +176,7 @@
     "channel_id": -1003026009206
   }
 }
+
 
 
 
