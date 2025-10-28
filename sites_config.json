@@ -44,7 +44,7 @@
     "channel_id": -1003026009206
   },
   "LUNABET": {
-    "message_pattern": "^LUNABET\\s+(\\b[A-Z0-9]{6}\\b)",
+    "message_pattern": "^LUNABET\\s+(\\b[A-Z0-9]{6,10}\\b)",
     "url_keyword": "lunabet",
     "code_index": 0,
     "input_selector": "input.E2E-bonusCode-input",
@@ -176,6 +176,7 @@
     "channel_id": -1003026009206
   }
 }
+
 
 
 
