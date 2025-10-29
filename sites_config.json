@@ -22,7 +22,7 @@
     "channel_id": -1003026009206
   },
   "TURBO": {
-    "message_pattern": "^TURBO\\s+(\\b[A-Z0-9]{5,9}\\b)",
+    "message_pattern": "^TURBO\\s+(\\b[A-Z0-9]{5,13}\\b)",
     "url_keyword": "turboslot",
     "code_index": 0,
     "input_selector": "input.E2E-bonusCode-input",
@@ -176,6 +176,7 @@
     "channel_id": -1003026009206
   }
 }
+
 
 
 
