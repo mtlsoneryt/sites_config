@@ -37,7 +37,7 @@
   "url_keyword": "grandpashabet",
   "code_index": 0,
   "input_selector": "tl_input_popup_reg",
-  "button_selector": "#promo_check",
+  "button_selector": "tl_btn h-bg-primary promocode_btn",
   "success_message_selector": "div.success-message",
   "error_message_selector": "div.error-message",
   "site_name": "GRAND",
@@ -187,6 +187,7 @@
     "channel_id": -1003026009206
   }
 }
+
 
 
 
