@@ -32,6 +32,17 @@
     "site_name": "TURBO",
     "channel_id": -1003026009206
   },
+  "GRAND": {
+  "message_pattern": "PROMO KOD\\s*:\\s*\\|{2}(\\b[A-Z0-9]{8,16}\\b)\\|{2}",
+  "url_keyword": "grandpashabet",
+  "code_index": 0,
+  "input_selector": "#PromoCode",
+  "button_selector": "#promo_check",
+  "success_message_selector": "div.success-message",
+  "error_message_selector": "div.error-message",
+  "site_name": "GRAND",
+  "channel_id": -1003026009206
+  },
   "EGEBET": {
     "message_pattern": "^EGEBET\\s+(\\b[A-Z0-9]{6,10}\\b)",
     "url_keyword": "egebet",
@@ -176,6 +187,7 @@
     "channel_id": -1003026009206
   }
 }
+
 
 
 
