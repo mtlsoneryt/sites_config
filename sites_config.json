@@ -41,7 +41,7 @@
   "success_message_selector": "div.success-message",
   "error_message_selector": "div.error-message",
   "site_name": "GRAND",
-  "channel_id": -1003026009206
+  "channel_id": -1001528160850
   },
   "EGEBET": {
     "message_pattern": "^EGEBET\\s+(\\b[A-Z0-9]{6,10}\\b)",
@@ -187,6 +187,7 @@
     "channel_id": -1003026009206
   }
 }
+
 
 
 
