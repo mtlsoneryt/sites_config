@@ -36,7 +36,7 @@
   "message_pattern": "(?i)PROMO[ \\t\\u00A0]*KOD[ \\t\\u00A0]*:[ \\t\\u00A0]*([A-Z0-9]{8,16})",
   "url_keyword": "grandpashabet",
   "code_index": 0,
-  "input_selector": "#PromoCode",
+  "input_selector": "tl_input_popup_reg",
   "button_selector": "#promo_check",
   "success_message_selector": "div.success-message",
   "error_message_selector": "div.error-message",
@@ -187,6 +187,7 @@
     "channel_id": -1003026009206
   }
 }
+
 
 
 
