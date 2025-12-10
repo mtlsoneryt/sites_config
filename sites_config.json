@@ -33,7 +33,7 @@
     "channel_id": -1003026009206
   },
   "GRAND": {
-  "message_pattern": "PROMO\\s*KOD\\s*:\\s*([A-Z0-9]{8,16})",
+  "message_pattern": "(?i)PROMO[ \\t\\u00A0]*KOD[ \\t\\u00A0]*:[ \\t\\u00A0]*([A-Z0-9]{8,16})",
   "url_keyword": "grandpashabet",
   "code_index": 0,
   "input_selector": "#PromoCode",
@@ -187,6 +187,7 @@
     "channel_id": -1003026009206
   }
 }
+
 
 
 
