@@ -21,6 +21,17 @@
     "site_name": "ARTEMİSBET",
     "channel_id": -1003442144119
   },
+  "HOLİGAN": {
+    "message_pattern": "^HOLİGAN\\s+(\\b[A-Z0-9]{6,11}\\b)",
+    "url_keyword": "holiganbet",
+    "code_index": 0,
+    "input_selector": "input.E2E-bonusCode-input",
+    "button_selector": "button.ComponentButton.InstanceActiveBonuses.Button",
+    "success_message_selector": "div.success-message",
+    "error_message_selector": "div.error-message",
+    "site_name": "HOLİGANBET",
+    "channel_id": -1003442144119
+  },
   "TURBO": {
     "message_pattern": "^TURBO\\s+(\\b[A-Z0-9]{5,13}\\b)",
     "url_keyword": "turboslot",
@@ -187,6 +198,7 @@
     "channel_id": -1003442144119
   }
 }
+
 
 
 
