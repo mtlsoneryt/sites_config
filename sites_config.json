@@ -13,7 +13,7 @@
   "ARTEMİSBET": {
     "message_pattern": "^ARTEMİS\\s+(\\b[A-Z0-9]{6,10}\\b)",
     "url_keyword": "artemisbet",
-    "code_index": 1,
+    "code_index": 0,
     "input_selector": "input.E2E-bonusCode-input",
     "button_selector": "button.ComponentButton.InstanceActiveBonuses.Button",
     "success_message_selector": "div.success-message",
@@ -187,6 +187,7 @@
     "channel_id": -1003442144119
   }
 }
+
 
 
 
