@@ -11,7 +11,7 @@
     "channel_id": -1003442144119
   },
   "ARTEMİSBET": {
-    "message_pattern": "^ARTEMİS\\s+(\\b[A-Z0-9]{5,8}\\b)\\s+(\\b[A-Z0-9]{5,8}\\b)",
+    "message_pattern": "^ARTEMİS\\s+(\\b[A-Z0-9]{6,10}\\b)",
     "url_keyword": "artemisbet",
     "code_index": 1,
     "input_selector": "input.E2E-bonusCode-input",
@@ -187,5 +187,6 @@
     "channel_id": -1003442144119
   }
 }
+
 
 
